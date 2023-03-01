@@ -208,7 +208,7 @@ lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian 
 
 #Ping
 ping_1 : "Pong!!!!!"
-ping_2 : "**Pong!**\n`⚡{1} ms`\n\n<b><u> System Stats:</u></b>\nUptime : {2} \nRam : {4} \nCpu : {4} \nDisk : {3}"
+ping_2 : "**Pong!**\n`🇮🇩{1} ms`\n\n<b><u> System Stats:</u></b>\nUptime : {2} \nRam : {4} \nCpu : {4} \nDisk : {3}"
 
 
 # Lagu
@@ -342,13 +342,13 @@ QU_B_2 : "ᴅɪᴍᴀɪɴᴋᴀɴ {0} ᴅᴀʀɪ {1} ᴍᴇɴɪᴛ"
 # Anggota Nabi [ Jika Anda menerjemahkan ini ke bahasa lain .. Anda dapat meninggalkan semua string ini dalam bahasa Inggris]
 
 #Sudo
-sudo_1 : "{0} sudah menjadi Nabi."
-sudo_2 : "Diangkat *{0}** Menjadi Nabi."
-sudo_3 : "Bukan bagian dari anggota Nabi."
+sudo_1 : "{0} sudah menjadi Supervisor."
+sudo_2 : "Diangkat *{0}** Menjadi Supervisor."
+sudo_3 : "Bukan bagian dari anggota Supervisor."
 sudo_4 : "Diturunkan Pangkat Menjadi Manusia Biasa"
-sudo_5 : "☀️<u> **Tuhan:**</u>\n"
-sudo_6 : "\n🌟<u> **Anggota Nabi:**</u>\n"
-sudo_7 : "Tidak Ada Anggota Nabi"
+sudo_5 : "☀️<u> **Mandor:**</u>\n"
+sudo_6 : "\n🌟<u> **Anggota Supervisor:**</u>\n"
+sudo_7 : "Tidak Ada Anggota Supervisor"
 
 #Memblokir
 block_1 : "{0} sudah diblokir dari bot."
