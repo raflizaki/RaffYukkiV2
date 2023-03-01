@@ -346,8 +346,8 @@ sudo_1 : "{0} sudah menjadi Supervisor."
 sudo_2 : "Diangkat *{0}** Menjadi Supervisor."
 sudo_3 : "Bukan bagian dari anggota Supervisor."
 sudo_4 : "Diturunkan Pangkat Menjadi Manusia Biasa"
-sudo_5 : "☀️<u> **Mandor:**</u>\n"
-sudo_6 : "\n🌟<u> **Anggota Supervisor:**</u>\n"
+sudo_5 : "🇮🇩<u> **Mandor:**</u>\n"
+sudo_6 : "\n🏁<u> **Anggota Supervisor:**</u>\n"
 sudo_7 : "Tidak Ada Anggota Supervisor"
 
 #Memblokir
