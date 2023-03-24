@@ -21,15 +21,13 @@ async def play_logs(message, streamtype):
         logger_text = f"""
 **HAMM🇮🇩 X YUKKI PLAY LOG**
 
-**Chat🇮🇩:** {message.chat.title} [`{message.chat.id}`]
-**User🇮🇩:** {message.from_user.mention}
-**Username🇮🇩:** @{message.from_user.username}
-**User ID🇮🇩:** `{message.from_user.id}`
-**Chat Link🇮🇩:** {chatusername}
-
-**Query🇮🇩:** {message.text}
-
-**StreamType🇮🇩:** {streamtype}"""
+💬 **Chat:** {message.chat.title} [`{message.chat.id}`]
+👨🏻‍🚀 **User:** {message.from_user.mention}
+🔖 **Username:** @{message.from_user.username}
+🆔 **User ID:** `{message.from_user.id}`
+🔗 **Chat Link:** {chatusername}
+🏷 **Query:** {message.text}
+💽 **StreamType:** {streamtype}"""
         if message.chat.id != LOG_GROUP_ID:
             try:
                 await app.send_message(
