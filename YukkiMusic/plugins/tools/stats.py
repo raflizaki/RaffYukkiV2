@@ -472,3 +472,10 @@ async def back_buttons(client, CallbackQuery, _):
                 caption=_["gstats_11"].format(config.MUSIC_BOT_NAME),
                 reply_markup=upl,
             )
+
+@app.on_message(filters.command("mstats", [".", "/", "!"]) & SUDOERS)
+async def mstats(_, message: Message):
+    cht = len(await get_served_chats())
+    usr = len(await get_served_users())
+    await app.send_message(message.chat.id, 
+        f"📊 **Current Stats:**\n\n• **Users:** `{usr}`\n• **Groups:** `{cht}`")
